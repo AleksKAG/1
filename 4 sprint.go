@@ -17,7 +17,7 @@ const (
 	swimConstant2 = 2.0
 )
 
-// distance вычисляет дистанцию в километрах.
+// distance вычисляет дистанцию в километрах
 func distance(speed, time float64) float64 {
 	return speed * time
 }
